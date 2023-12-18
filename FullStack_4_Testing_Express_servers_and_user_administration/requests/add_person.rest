@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtvZHRsZCIsImlkIjoiNjMzZmZlNzkzYzM5NGEwNTIyMTRlNWI1IiwiaWF0IjoxNjY1MTM5NjE3fQ.fuUgAJ2EsipuXGcLqUmNplkdL9Y3EVXE7TccfyR1fQ0
+
+{
+    "title": "Konun Blogi",
+    "author": "Kodu",
+    "url": "www.konu.com",
+    "likes":"1234",
+    "user":"633ffe793c394a052214e5b5"
+    
+}
